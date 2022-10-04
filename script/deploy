@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo ssh -i ~/.ssh/id_rsa 172.31.23.59 <<EOF
+   ssh -i ~/.ssh/id_rsa 3.143.231.231 <<EOF
     cd ~/home/apps/nodejs-vanillaJS-App/index.js
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
