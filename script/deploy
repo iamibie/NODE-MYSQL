@@ -1,7 +1,8 @@
 #!/bin/sh
 ssh ubuntu@3.143.231.231 <<EOF
     cd /home/apps/nodejs-vanillaJS-App 
-    git pull origin master
+    git pull https://github.com/iamibie/nodejs-vanillaJS-App.git master
     pm2 restart ecosystem.config.cjs
+    service nginx restart
     exit
 EOF
