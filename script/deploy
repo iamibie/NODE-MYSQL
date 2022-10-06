@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh root@3.143.231.231 <<EOF
-    cd /home/apps 
+    cd /home/apps/nodejs-vanillaJS-App
     git pull origin master
     pm2 restart ecosystem.config.cjs
     exit
